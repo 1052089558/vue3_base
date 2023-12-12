@@ -1,5 +1,5 @@
 <template>
-    <div class="name">
+    <div class="home">
   
     </div>
   </template>
@@ -9,7 +9,7 @@
   
   export default {
     setup(props, context) {
-      let state = reactive({
+      const state = reactive({
       
       });
       return {
