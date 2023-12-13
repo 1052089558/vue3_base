@@ -37,11 +37,13 @@ const state = reactive({
 
     .layout {
   display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
 }
 .el-header {
-  height: 100px;
+  position: relative;
+  height: 400px;
   width: 100%;
   padding: 0;
 }
